@@ -4,7 +4,7 @@
 
 const char* Mes(int mes) {
     const char* meses[12] = {
-        "Janeiro", "Fevereiro", "Março", "Abril", "Maio", "Junho",
+        "Janeiro", "Fevereiro", "MarÃ§o", "Abril", "Maio", "Junho",
         "Julho", "Agosto", "Setembro", "Outubro", "Novembro", "Dezembro"
     };
     return meses[mes];
@@ -34,8 +34,8 @@ int main() {
         }
     }
 
-    printf("\nMaior temperatura: %.2f°C, ocorrida em %s.\n", maiorTemp, Mes(MaiorTemp));
-    printf("Menor temperatura: %.2f°C, ocorrida em %s.\n", menorTemp, Mes(MenorTemp));
+    printf("\nMaior temperatura: %.2fÂ°C, ocorrida em %s.\n", maiorTemp, Mes(MaiorTemp));
+    printf("Menor temperatura: %.2fÂ°C, ocorrida em %s.\n", menorTemp, Mes(MenorTemp));
 
     return 0;
 }
